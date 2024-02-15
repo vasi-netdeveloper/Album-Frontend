@@ -1,0 +1,11 @@
+<div class="page-header">
+    <div class="container">
+      <h1>Albums</h1>
+    </div>
+  </div>
+
+  <div class="flex-container">
+    <div *ngFor="let field of photos" class="flex-item">
+      {{field.id}} {{field.title}}
+    </div>
+  </div>
